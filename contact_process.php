@@ -6,6 +6,10 @@
     $subject = $_REQUEST['subject'];
     $number = $_REQUEST['number'];
     $cmessage = $_REQUEST['message'];
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dd8c90a2d19caa5be11ca679ccca02dfa219185
     $headers = "From: $from";
 	$headers = "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $from . "\r\n";

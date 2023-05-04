@@ -13,3 +13,18 @@
 
 
 }
+.ContenedorFormulaImagen{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.ImagenIndicador{
+    width: 35%;
+    height: 35%;
+    border-radius: 6%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}

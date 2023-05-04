@@ -1942,7 +1942,7 @@ hr{
 }
 .footer-padding{
     padding-top:170px;
-    padding-bottom:80px
+    padding-bottom:80px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .footer-padding{
@@ -5799,7 +5799,7 @@ b,sup,sub,u,del{
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    background: rgb(148, 33, 33);
+    background: rgb(207, 25, 25);
     padding: 15px;
     color: #f3f3f3;
     display: flex;
@@ -5836,3 +5836,9 @@ b,sup,sub,u,del{
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+.space {
+    width: 8px;
+    height: auto;
+    display: inline-block;
+  }

@@ -13,6 +13,7 @@
     />
 
     <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/styleIndicadoresOrgInstitucional.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/slicknav.css" />
@@ -61,30 +62,22 @@
                     <nav>
                       <ul id="navigation">
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="about.html">Nosotros</a></li>
-                        <li><a href="services.html">Servicios</a></li>
                         <li>
-                          <a href="#">Nuestra identidad </a>
+                          <a class="a-nopage" href="#">Nosotros</a>
                           <ul class="submenu">
-                            <li><a href="history.html">Historia</a></li>
                             <li>
-                              <a href="size-business.html">Tamaño</a>
+                              <a href="philosophy.html">Filosofía</a>
                             </li>
+
                             <li>
-                              <a href="activity.html">Campo de actividad</a>
-                            </li>
-                            <li>
-                              <a href="geographic-scope.html"
-                                >Ambito geográfico</a
-                              >
-                            </li>
-                            <li>
-                              <a href="technologies.html">Tecnología</a>
+                              <a href="identity.html">Identidad</a>
                             </li>
                           </ul>
                         </li>
+                        <li><a href="services.html">Servicios</a></li>
+
                         <li>
-                          <a href="#">Institucional</a>
+                          <a class="a-nopage" href="#">Institucional</a>
                           <ul class="submenu">
                             <li><a href="foda.html">FODA</a></li>
                             <li>
@@ -131,6 +124,93 @@
           </div>
         </div>
       </div>
+
+      <div class="IntroIndicadores text-center">
+        <p>
+           Nosotros en PerroFeliz realizamos indicadores para poder visualizar que nuestra gestión sea eficaz y eficiente, asi tambien podremos ver donde mejorar para que nuestros clientes esten satisfechos con el servicio que le brindamos a sus fieles amigos los canes.
+        </p>
+      </div>
+      <section class="IndicadorDeProcesos">
+        <h1>Indicador relacionado con los procesos</h1>
+        <br>
+         <h2>Indicador de capacidad de producción</h2> 
+        <p>
+          <br> Se refiere a la cantidad máxima de servicios que puede producir en un período determinado. <br>
+Para la veterinaria  PerroFeliz es importante determinar si cuenta con suficiente personal y recursos para recibir a los perros para brindar un servicio adecuado a sus clientes. Si recibiera más perros,entonces PerroFeliz estará trabajando al máximo de su capacidad por lo tanto tendría que contratar a más personal para poder satisfacer la demanda de sus servicios como también tener la cantidad adecuada de personal.
+        </p>
+       <p> <strong>La Formula:</strong></p>
+        <div class="ContenedorFormulaImagen">
+        
+          <div>
+            <math  style="font-size: 20px;">
+              <mrow>
+                <mi>Número de trabajadores</mi>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mi>Capacidad de producción</mi>
+                  </mrow>
+                  <mrow>
+                    <mo>(</mo>
+                    <mi>Horas disponibles de trabajo</mi>
+                    <mo>)</mo>
+                    <mo>*</mo>
+                    <mi>Eficiencia</mi>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+            
+
+            <ul> <br>
+            <p>Donde:</p>
+            <li><p>Capacidad de producción: cuantos servicios o bienes realizan en un determinado periodo.</p>
+            </li>
+           <li><p>Horas disponibles de trabajo: número de horas disponibles para trabajar en un período determinado.</p> </li>
+            <li><p>Eficiencia: porcentaje de tiempo productivo utilizado para producir bienes o servicios.</p> </li>
+            </ul>
+          </div>
+          <img class="ImagenIndicador" src="assets/img/indicadorDeCapacidad.png" alt="Imagen no se mostro">
+        </div>
+        
+
+      </section>
+
+      <section class="IndicadorDeClientes">
+        <h1>Indicador relacionado con los clientes</h1> <br>
+        <h2>Indicador satisfacción del cliente</h2> 
+        <p>
+           <br> Mide el nivel de satisfacción de los clientes con los servicios y atención ofrecidos por la veterinaria. Se puede medir a través de encuestas, comentarios en línea o mediante la interacción directa con los clientes. Un alto nivel de satisfacción del cliente puede ser un indicador de éxito y fidelidad del cliente, lo que a su vez puede tener un impacto positivo en los ingresos y en la reputación de la veterinaria.
+        </p>
+        <div class="ContenedorFormulaImagen">
+          <div>
+            <p><strong>La Formula:</strong></p>
+          <math style="font-size: 23px;">
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <mi>Cantidad de opción elegida</mi>
+                </mrow>
+                <mrow>
+                  <mi>cantidad total</mi>
+                </mrow>
+              </mfrac>
+              <mo>*</mo>
+              <mn>100</mn>
+            </mrow>
+          </math>
+
+            <ul> <br>
+               <p>Donde: </p>
+              <li><p>Opciones: Bueno, regular, malo </p>     </li>
+               <li><p>Tiempo: cada mes.     </p>     </li>
+              <li><p>Tipo de indicador: Cualitativo</p></li>
+             </ul>
+          </div>
+        <img class="ImagenIndicador" src="assets/img/indicadorCliente.jpg" alt="Imagen no se mostro">
+        </div>
+      </section>
+
     </main>
 
     <footer>
@@ -157,9 +237,7 @@
                   </div>
                   <!-- social -->
                   <div class="footer-social">
-                    <a href="https://www.facebook.com/sai4ull"
-                      ><i class="fab fa-facebook-square"></i
-                    ></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter-square"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-pinterest-square"></i></a>

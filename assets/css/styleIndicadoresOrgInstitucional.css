@@ -1,0 +1,30 @@
+  
+.IntroIndicadores{
+    padding-top: 3%;
+    padding-right:10% ;
+    padding-left: 10%;
+}
+.IndicadorDeProcesos{
+    padding: 3% 10% 3% 10%;
+
+}
+.IndicadorDeClientes{
+    padding: 3% 10% 3% 10%;
+
+
+}
+.ContenedorFormulaImagen{
+    display: flex;
+    justify-content: 	space-between;
+    flex-direction: row;
+}
+.ImagenIndicador{
+    width: 35%;
+    height: 35%;
+    border-radius: 6%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}

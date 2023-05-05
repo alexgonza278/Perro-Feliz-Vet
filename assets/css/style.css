@@ -119,8 +119,7 @@ p{
     font-size:16px;
     line-height:30px;
     margin-bottom:15px;
-    font-weight:normal;
-    text-align: justify;
+    font-weight:normal
 }
 
 .pt{
@@ -2268,10 +2267,10 @@ hr{
 }
 .slider-area{
     position:relative;
-    background-image:url(../img/hero/h1_hero.png);
+    background-image:url(../img/heronew.png);
     background-repeat:no-repeat;
     background-position:center center;
-    background-size:cover
+    background-size:contain;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
     .slider-area{
@@ -2576,7 +2575,7 @@ hr{
 }
 .our-services .single-services{
     border:1px solid transparent;
-    background:;
+    
     border-radius:6px;
     padding:79px 33px;
     -webkit-transition:all .4s ease-out 0s;

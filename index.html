@@ -6,6 +6,9 @@
     <title>PerroFeliz</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
     <script
     src="//code.tidio.co/6ws58o38wej7ezxudizqp39izc3zvypn.js"
     async
@@ -29,6 +32,18 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+ .emergente{
+    display:block;
+    margin:auto;
+  
+   
+    
+    
+ }
+ 
+
+    </style>
   </head>
 
   <body>
@@ -707,5 +722,54 @@
     <script src="./assets/js/main.js"></script>
 
 
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><bold>Recordatorio de Vacunas</bold></h5>
+           
+           
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>¡No pierdas de vista las vacunas de tu mascota! Con nuestro servicio de recordatorio de vacunación, te enviaremos un correo electrónico o mensaje de WhatsApp para asegurarnos de que nunca te olvides de programar las vacunas de tu amado compañero. Mantén a tu mascota sana y protegida. Contáctanos hoy mismo.!</p>
+
+           
+          </div>
+
+
+         
+          <div class=".row"> <img src="assets/img/peedro-vacunacion.jpg" width="250px" height="250px"  class="emergente" ></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Función para mostrar el modal
+  function showModal() {
+    $('#exampleModal').modal('show');
+  }
+
+  // Mostrar el modal al cargar la página
+  showModal();
+
+  // Mostrar el modal al recargar la página
+  window.addEventListener('beforeunload', showModal);
+
+  // Mostrar el modal cada 5 minutos
+  setInterval(showModal, 5 * 60 * 1000); // 5 minutos en milisegundos
+});
+
+
+  </script>
+  
   </body>
+
 </html>

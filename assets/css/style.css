@@ -3262,13 +3262,26 @@ font-size: 30px !important;
         height:500px
     }
 }
-@media only screen and (min-width: 376px) and (max-width: 967px){
+@media only screen and (min-width: 250px) and (max-width: 967px){
     .about-img{
-        width:120%!important;
+        width:130%!important;
         height:400px !important;
        background-size: contain !important;
     }
 }
+
+
+/*about responsivo */
+@media only screen and (min-width: 250px) and (max-width: 967px){
+    .about-area .about-details .right-caption .about-more .pera-bottom{
+        font-size:15px !important;
+        color:#776b6a;
+        line-height:1.5;
+      
+        margin-bottom: 20px !important;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .about-area .about-img{
         width:100%;

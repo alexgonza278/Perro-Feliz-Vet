@@ -2243,9 +2243,13 @@ hr{
 }
 @media (max-width: 575px){
     .slider-height{
-        height:500px
-    }
+        height:300px;
+    
 }
+
+
+    }
+  
 .slider-height2{
     height:440px;
     background-size:cover
@@ -2281,6 +2285,15 @@ hr{
     .slider-area{
         padding-top:80px
     }
+    .slider-area{
+        position:sticky;
+        background-image:url(../img/hero/cuidados-para-cachorros_img8860t1.jpg);
+        background-repeat:no-repeat;
+        
+      
+        background-size:cover;
+    }
+
 }
 .slider-area .hero__caption{
     overflow:hidden;
@@ -2343,16 +2356,25 @@ hr{
         font-size:29px
     }
 }
-@media (max-width: 575px){
+@media (max-width: 675px){
     .slider-area .hero__caption h1{
         font-size:29px;
+        color: rgba(255, 255, 255, 0.85);
         line-height:1.4
+    }
+    .button-t{
+        left:1%;
+        padding-left:0;
+        color:white;
+    }
+    slider-area .hero__caption p{
+      font-size: 20000px;
     }
 }
 .slider-area .hero__caption p{
     margin-bottom:30px;
     padding-right:155px;
-    color:#776b6a;
+    color: black;
     overflow:hidden
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -2362,8 +2384,34 @@ hr{
 }
 @media (max-width: 575px){
     .slider-area .hero__caption p{
-        padding-right:0px
+        padding-right:0px;
+        text-align: justify;
+        color: whitesmoke;
+        margin-bottom: 20px;
     }
+}
+
+@media (max-width: 575px){
+    .slider-area .hero__caption span{
+        padding-right:0px;
+        text-align: justify;
+        color: whitesmoke;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*btn area a para mobile*/
+@media(max-width: 575px){
+    .slider-area .hero__caption a{
+        color:#ececec !important;
+        font-size:16px !important;
+        text-transform:capitalize;
+        font-weight:500 !important;
+        display:block !important;
+        overflow:hidden
+    }
+
 }
 .slider-area .hero__caption a{
     color:#111111;
@@ -2419,7 +2467,7 @@ hr{
     background-image:url(../img/hero/edificio.jpg);
     background-repeat:no-repeat;
     background-position:center center;
-    background-size:cover
+    background-size:cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .slider-area2 .hero-cap{
@@ -2432,8 +2480,8 @@ hr{
     }
 }
 @media (max-width: 575px){
-    .slider-area2 .hero-cap{
-        padding-top:50px
+    .slider-area2 .hero-cap .hero-btn{
+        padding-top:5px
     }
 }
 .slider-area2 .hero-cap h2{
@@ -2494,13 +2542,7 @@ hr{
         line-height:50px
     }
 }
-@media (max-width: 575px){
-    .video-icon a{
-        width:50px;
-        height:50px;
-        line-height:50px
-    }
-}
+
 .video-icon a.btn-icon{
     position:relative
 }
@@ -2537,10 +2579,7 @@ hr{
         opacity:0
     }
 }
-.video-icon a.btn-icon:hover{
-    background:#ff1313;
-    color:#fff
-}
+
 .button-text{
     position:absolute;
     left:5%;

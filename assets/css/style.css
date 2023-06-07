@@ -2503,7 +2503,10 @@ hr{
     }
 }
 .video-icon{
-    margin-bottom:50px
+    margin-bottom:5px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 @media (max-width: 575px){
     .video-icon{
@@ -2549,6 +2552,10 @@ hr{
 .video-icon a.btn-icon{
     position:relative
 }
+.btn-icon:hover{
+    background: #ff1313;
+    color: #ffff;
+}
 .video-icon a.btn-icon::before{
     content:'';
     display:inline-block;
@@ -2558,7 +2565,7 @@ hr{
     bottom:-2px;
     right:-2px;
     border-radius:inherit;
-    border:1px solid #232024;
+    border:1px solid #a92b2b;
     -webkit-animation:btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
     animation:btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite
 }
@@ -4820,7 +4827,7 @@ font-size: 30px !important;
     }
 }
 #test-form .mfp-close-btn-in .mfp-close{
-    color:#333;
+    color:#ff0000;
     display:none !important
 }
 #test-form button.mfp-close{
@@ -4840,7 +4847,6 @@ font-size: 30px !important;
     cursor:pointer;
     background:transparent;
     border:0;
-    -webkit-appearance:none;
     display:block;
     outline:none;
     padding:0;
@@ -4849,7 +4855,7 @@ font-size: 30px !important;
     touch-action:manipulation;
     width:40px;
     height:40px;
-    background:#4A3600;
+    background:#4a0000;
     text-align:center;
     line-height:20px;
     position:absolute;
@@ -4870,6 +4876,10 @@ font-size: 30px !important;
     position:fixed;
     background:#4A3600;
     opacity:0.6
+}
+.mfp-container{
+    backdrop-filter: blur(2px);
+    background-color: rgba(97, 98, 99, 0.5);
 }
 @media (max-width: 767px){
     .gj-picker.gj-picker-md.timepicker{
@@ -6047,7 +6057,7 @@ label{cursor: pointer;}
   justify-content: center;
   height: 0px;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 10px;
 
   }
 

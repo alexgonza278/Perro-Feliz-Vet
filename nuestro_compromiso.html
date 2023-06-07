@@ -5,31 +5,17 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>PerroFeliz</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script
       src="//code.tidio.co/6ws58o38wej7ezxudizqp39izc3zvypn.js"
       async
     ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="manifest" href="site.webmanifest" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="assets/img/favicon4.ico"
     />
-
-    <style>
-      p {
-        line-height: 1.5;
-      }
-
-      .text-align-justify {
-        text-align: justify;
-      }
-
-      .text-align-left {
-        text-align: left;
-      }
-    </style>
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -43,6 +29,17 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/modo.css" />
+    <style>
+      #adopta {
+        object-fit: contain;
+      }
+      #pageHeaderTitle {
+        font-size: 40px;
+        margin-bottom: 100px;
+        font-weight: bold;
+      }
+    </style>
   </head>
 
   <body>
@@ -52,7 +49,7 @@
         <div class="preloader-inner position-relative">
           <div class="preloader-circle"></div>
           <div class="preloader-img pere-text">
-            <img src="assets/img/preloader.png" />
+            <img src="assets/img/preloader.png" alt="" />
           </div>
         </div>
       </div>
@@ -99,7 +96,7 @@
                           </ul>
                         </li>
                         <li>
-                          <a ref="#" class="a-nopage">Servicios</a>
+                          <a href="#" class="a-nopage">Servicios</a>
 
                           <ul class="submenu">
                             <li>
@@ -134,7 +131,7 @@
                     </nav>
                   </div>
                   <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                    <a href="index.html#emergencia" class="header-btn"
+                    <a href="services.html#emergencia" class="header-btn"
                       >Emergencia</a
                     >
                   </div>
@@ -151,66 +148,211 @@
       <!-- Header End -->
     </header>
     <main>
-      <!-- Hero Area Start -->
-      <div class="slider-area2 slider-height2 d-flex align-items-center">
+      <div class="our-services section-padding30">
         <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="hero-cap text-center pt-50">
-                <h2>Nuestra Filosofía</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Hero Area End -->
-      <!-- About Details Start -->
-      <div class="about-details section-padding30">
-        <div class="container">
-          <div class="row">
-            <div class="offset-xl-1 col-lg-8">
-              <div class="about-details-cap mb-50">
-                <p class="text-align-justify">
-                  ¡Únete a nosotros en PerroFeliz y descubre por qué somos la
-                  opción preferida de los amantes de las mascotas!
-                </p>
-                <h4>Misión, Visón y Valores</h4>
-                <p class="text-align-justify">
-                  Nuestro objetivo es convertirnos en la cadena líder regional
-                  en servicios veterinarios y acicalamiento canino. Nos
-                  atrevemos a soñar en grande al expandirnos estratégicamente a
-                  nuevas ciudades, llevando nuestra excelencia a cada rincón.
-                  Queremos ser la opción preferida de los amantes de las
-                  mascotas al ofrecer un servicio de alta calidad, accesible
-                  para todos.
-                </p>
-                <p>
-                  ¡Nos esforzamos por brindar un cuidado excepcional a tus
-                  peludos amigos!
-                </p>
-              </div>
+          <div class="row justify-content-center">
+            <section class="light">
+              <div class="container py-2">
+                <div
+                  class="h1 text-center text-dark hero__caption"
+                  id="pageHeaderTitle"
+                >
+                  🌍💚🐾Cuidando de tus Mascotas y del Planeta
+                </div>
 
-              <div class="about-details-cap mb-50">
-                <h4>Credo y Compromiso</h4>
-                <p class="text-align-justify">
-                  Nuestro equipo altamente capacitado y equipado con la última
-                  tecnología se dedica apasionadamente a ofrecer servicios de
-                  alta calidad a precios asequibles y en horarios convenientes.
-                  Valoramos profundamente la satisfacción y el bienestar de
-                  nuestros clientes y sus amadas mascotas. Nos comprometemos a
-                  superar tus expectativas, trabajando en equipo y fomentando
-                  una cultura de transparencia, confianza y mejora continua. Nos
-                  dedicamos incansablemente a satisfacer las necesidades de cada
-                  mascota y su dueño, asegurando que cada experiencia con
-                  nosotros sea excepcional y digna de recordar.
-                </p>
-                <p>¡Tu satisfacción es nuestra mayor recompensa!</p>
+                <article class="postcard light blue">
+                  <a class="postcard__img_link" href="#">
+                    <img
+                      class="postcard__img"
+                      src="assets/img/ecofriend.jpg"
+                      alt="Image Title"
+                    />
+                  </a>
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title blue">
+                      <a href="#"
+                        >Productos Ecológicos para el cuidado de tu Mascota y el
+                        Planeta
+                      </a>
+                    </h1>
+                    <!-- <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
+                        2020
+                      </time>
+                    </div> -->
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      Cuida de tu mascota y del planeta: Descubre nuestros
+                      productos ecológicos para el cuidado animal. Nuestros
+                      champús, acondicionadores y productos para las patas están
+                      formulados con ingredientes naturales y libres de químicos
+                      dañinos. Además, utilizamos materiales eco-friendly, como
+                      toallas y batas orgánicas o recicladas.
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-leaf mr-2"></i>Productos Ecológicos
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-tree mr-2"></i>Ingredientes Naturales
+                      </li>
+                      <li class="tag__item play blue">
+                        <a href="#"
+                          ><i class="fas fa-leaf mr-2"></i
+                          ><i class="fas fa-hands mr-2"></i>Materiales
+                          Eco-Friendly</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <article class="postcard light red">
+                  <a class="postcard__img_link" href="#">
+                    <img
+                      id="adopta"
+                      class="postcard__img"
+                      src="assets/img/peloperro.jpg"
+                      alt="Image Title"
+                    />
+                  </a>
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title red">
+                      <a href="#">
+                        --Energía Renovable y Reciclaje en PerroFeliz</a
+                      >
+                    </h1>
+                    <!-- <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
+                        2020
+                      </time>
+                    </div> -->
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      En PerroFeliz, nos preocupamos por el medio ambiente. Por
+                      eso, generamos nuestra propia energía renovable con
+                      paneles solares. Así, reducimos nuestra huella de carbono
+                      y contribuimos a un futuro más limpio. ¡Recicla con
+                      nosotros! Tenemos un sistema de reciclaje en el
+                      establecimiento y proporcionamos contenedores para
+                      botellas, latas y otros materiales reciclables. Incluso
+                      reciclamos el pelo de tus peludos amigos obtenido durante
+                      el acicalamiento.
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-leaf mr-2"></i>Energia Renovable
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-recycle mr-2"></i>Reciclaje de pelos de
+                        Mascotas
+                      </li>
+                      <li class="tag__item play red">
+                        <a href="#"
+                          ><i class="fas fa-cloud mr-2"></i> Huella de
+                          carbono</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <article class="postcard light green">
+                  <a class="postcard__img_link" href="#">
+                    <img
+                      class="postcard__img"
+                      src="assets/img/adopta.jpg"
+                      alt="Image Title"
+                      id="adopta"
+                    />
+                  </a>
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title green">
+                      <a href="#">
+                        Transformando Vidas a Través de la Adopción y el
+                        Rescate</a
+                      >
+                    </h1>
+                    <div class="postcard__subtitle small">
+                      <!-- <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
+                        2020
+                      </time> -->
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      En PerroFeliz, promovemos la adopción y el rescate.
+                      Trabajamos en colaboración con refugios locales para
+                      organizar eventos de adopción. ¡Ayúdanos a darle un hogar
+                      a perros que realmente lo necesitan! Al elegir PerroFeliz,
+                      no solo cuidas de tu mascota, sino que también marcas la
+                      diferencia en el mundo que compartimos. ¡Únete a nuestro
+                      compromiso con la vida y el planeta!
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-paw mr-2"></i>Adopción
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-heart mr-2"></i>Compromiso con la vida
+                      </li>
+                      <li class="tag__item play green">
+                        <a href="#"
+                          ><i class="fas fa-home mr-2"></i>Colaboración con
+                          refugios locales</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <!-- <article class="postcard light yellow">
+                  <a class="postcard__img_link" href="#">
+                    <img
+                      class="postcard__img"
+                      src="https://picsum.photos/501/501"
+                      alt="Image Title"
+                    />
+                  </a>
+                  <div class="postcard__text t-dark">
+                    <h1 class="postcard__title yellow">
+                      <a href="#">Podcast Title</a>
+                    </h1>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th
+                        2020
+                      </time>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eligendi, fugiat asperiores inventore beatae accusamus
+                      odit minima enim, commodi quia, doloribus eius! Ducimus
+                      nemo accusantium maiores velit corrupti tempora reiciendis
+                      molestiae repellat vero. Eveniet ipsam adipisci illo iusto
+                      quibusdam, sunt neque nulla unde ipsum dolores nobis enim
+                      quidem excepturi, illum quos!
+                    </div>
+                    <ul class="postcard__tagbox">
+                      <li class="tag__item">
+                        <i class="fas fa-tag mr-2"></i>Podcast
+                      </li>
+                      <li class="tag__item">
+                        <i class="fas fa-clock mr-2"></i>55 mins.
+                      </li>
+                      <li class="tag__item play yellow">
+                        <a href="#"
+                          ><i class="fas fa-play mr-2"></i>Play Episode</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </article> -->
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </div>
-      <!-- About Details End -->
     </main>
     <footer>
       <!-- Footer Start-->

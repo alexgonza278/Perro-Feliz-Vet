@@ -6063,3 +6063,9 @@ label{cursor: pointer;}
   margin-top:170px
 
   }
+
+  .img-beneficios{
+    box-shadow: 4px -4px 9px 2px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 4px -4px 9px 2px rgba(0,0,0,0.47);
+    -moz-box-shadow: 4px -4px 9px 2px rgba(0,0,0,0.47); 
+  }
